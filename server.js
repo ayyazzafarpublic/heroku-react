@@ -10,4 +10,4 @@ app.get('/*', (req, resp)=>{
     resp.sendFile(__dirname+'/dist/angulartmp/index.html')
 })
 
-app.listen(1212);
+app.listen(80);
